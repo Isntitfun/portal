@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="css/style.css" />
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,11 +10,47 @@
   <body>
     <div class="portal-column1">
       <button class="link-icon"></button>
-      <div class="links"></div>
+      <div class="links">
+        <div class="link">
+          <a href="https://github.com/"
+            ><img width="23" src="img/icon/g.png" />Github</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://desktop.github.com/"
+            ><img width="23" src="img/icon/gd.png" />Github Desktop</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://code.visualstudio.com/"
+            ><img width="20" src="img/icon/v.png" />Visual Studio Code</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://nomadcoders.co/login"
+            ><img width="20" src="img/icon/n.png" />Nomadcoder</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://developer.mozilla.org/ko/"
+            ><img width="20" src="img/icon/m.png" />MDN</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://fontawesome.com/search"
+            ><img width="20" src="img/icon/f.png" />Fontawesome</a
+          >
+        </div>
+        <div class="link">
+          <a href="https://www.naver.com/"
+            ><img width="20" src="img/icon/nv.png" />Naver</a
+          >
+        </div>
+      </div>
     </div>
     <div class="portal-column2">
       <div class="greeting">
-        <span>Hello</span>
+        <span>Hello.</span>
       </div>
       <form class="todo-form">
         <input
@@ -28,9 +65,13 @@
         <span>00:00:00</span>
       </div>
       <div class="quote-box">
-        <span class="quote"></span>
-        <span class="author"></span>
-        <button class="quote-btn"></button>
+        <div class="quote-content">
+          <span class="quote"></span>
+          <span class="author"></span>
+        </div>
+        <button class="quote-btn">
+          <i class="fa-solid fa-arrows-rotate fa-xs"></i>
+        </button>
       </div>
       <div class="todo-box">
         <ul class="todo-list"></ul>
@@ -40,4 +81,8 @@
   <script src="javascript/clock.js"></script>
   <script src="javascript/quotes.js"></script>
   <script src="javascript/todo.js"></script>
+  <script
+    src="https://kit.fontawesome.com/a9d4c305f4.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

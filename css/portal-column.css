@@ -1,0 +1,18 @@
+body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.portal-column2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.portal-column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}

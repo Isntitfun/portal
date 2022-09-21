@@ -1,1 +1,13 @@
 @import url(reset.css);
+@import url(link.css);
+@import url(greeting.css);
+@import url(var.css);
+@import url(portal-column.css);
+@import url(quote-box.css);
+@import url(clock.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+html {
+  font-family: var(--deffont);
+}
