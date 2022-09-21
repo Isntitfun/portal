@@ -1,0 +1,28 @@
+.todo-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.todo-input {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  height: 40px;
+  border-bottom: 2px solid rgb(255, 255, 255, 0);
+}
+
+.todo-input::placeholder {
+  font-size: 3vmin;
+  font-family: var(--deffont);
+}
+
+.todo-input:focus {
+  border-bottom: 2px solid rgb(255, 255, 255, 0.9);
+}
+.todo-input:focus::placeholder {
+  opacity: 0;
+}

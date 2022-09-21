@@ -1,4 +1,22 @@
+.links {
+  padding: 10px;
+}
+
+.link {
+  margin-bottom: 10px;
+}
+
+.link a {
+  display: flex;
+  align-items: center;
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+.link a:visited {
+  color: inherit;
+}
 .link img {
-  width: 30px;
-  height: 30px;
+  margin-right: 7px;
 }

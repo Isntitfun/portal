@@ -1,24 +1,41 @@
 .quote-box {
   display: flex;
-  width: 40vw;
-  margin-top: 30px;
+  width: 100%;
+  margin-top: 50px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.quote-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-.quote-content div {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+}
+
+.quote-box div:first-child {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.quote-box div:last-child {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 .quote {
   font-size: 13px;
+  display: block;
+  /* text-align: center; */
+}
+
+.dq {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.dq:first-child {
+  margin-right: 5px;
+}
+
+.dq:last-child {
+  margin-left: 5px;
 }
 
 .author {

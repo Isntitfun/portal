@@ -5,15 +5,12 @@ const quotes = [
   },
 
   {
-    Quote: `Friendship...is born at the moment when one man says to another
-        "What! You too? I thought that no one but myself..."`,
+    Quote: `Friendship...is born at the moment when one man says to another "What! You too? I thought that no one but myself..."`,
     Author: "C.S.Lewis",
   },
 
   {
-    Quote: `I've Learned that people will forget what you said,
-        people will forget what you did,
-        but people will never forget how you made them feel.`,
+    Quote: `I've Learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.`,
     Author: "Maya Angelou",
   },
 
@@ -49,8 +46,7 @@ const quotes = [
   },
 
   {
-    Quote: `Don't judge each day by the harvest you reap
-        but by the seed that you plant`,
+    Quote: `Don't judge each day by the harvest you reap but by the seed that you plant`,
     Author: "Robert Louis Stevenson",
   },
 
@@ -66,14 +62,12 @@ const quotes = [
   },
 
   {
-    Quote: `Many of life's failures are people who did not realize
-      how close they were to success when they gave up.`,
+    Quote: `Many of life's failures are people who did not realize how close they were to success when they gave up.`,
     Author: "Thomas A. Edison",
   },
 
   {
-    Quote: `Life is never fair,
-      and perhaps it is a good thing for most of us that it is not.`,
+    Quote: `Life is never fair, and perhaps it is a good thing for most of us that it is not.`,
     Author: "Oscar Wilde",
   },
 
@@ -88,8 +82,7 @@ const quotes = [
   },
 
   {
-    Quote: `Dont't be distracted by criticism.
-      Remember - the only taste of success some people get is to take a bite out of you.`,
+    Quote: `Dont't be distracted by criticism. Remember - the only taste of success some people get is to take a bite out of you.`,
     Author: "Zig Ziglar",
   },
 
@@ -99,20 +92,17 @@ const quotes = [
   },
 
   {
-    Quote: `A successful man is one who can lay a firm foundation
-      with the bricks others have thrown at him.`,
+    Quote: `A successful man is one who can lay a firm foundation with the bricks others have thrown at him.`,
     Author: "David Brinkley",
   },
 
   {
-    Quote: `If you are not willing to risk the usual,
-      you will have to settle for the ordinary.`,
+    Quote: `If you are not willing to risk the usual, you will have to settle for the ordinary.`,
     Author: "Jim Rohn",
   },
 
   {
-    Quote: `I've learned over the years that when one's mind is made up,
-      this diminishes fear.`,
+    Quote: `I've learned over the years that when one's mind is made up, this diminishes fear.`,
     Author: "Rosa Parks",
   },
 ];

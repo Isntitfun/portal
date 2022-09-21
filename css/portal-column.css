@@ -7,7 +7,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   height: 100vh;
+  width: 40vw;
 }
 
 .portal-column3 {
@@ -15,4 +17,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  width: 40vw;
+  max-width: 400px;
+  margin-right: 30px;
 }
