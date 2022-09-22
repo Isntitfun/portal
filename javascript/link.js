@@ -4,7 +4,7 @@ const column1 = document.querySelector(".portal-column1");
 const column2 = document.querySelector(".portal-column2");
 const column3 = document.querySelector(".portal-column3");
 const clockmove = document.querySelector(".clock");
-const email = links.querySelector("textarea:last-child");
+const email = links.querySelector(".email");
 
 function handleClickLinkBtn() {
   links.classList.toggle("links__linkbtn");

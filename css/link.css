@@ -70,5 +70,8 @@
 }
 
 .email {
-  visibility: hidden;
+  visibility: visible;
+  color: white;
+  font-size: 10px;
+  opacity: 0;
 }
