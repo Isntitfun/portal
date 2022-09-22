@@ -3,13 +3,21 @@ body {
   justify-content: space-between;
 }
 
+.portal-column1 {
+  width: 0vw;
+}
+
 .portal-column2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  width: 40vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .portal-column3 {

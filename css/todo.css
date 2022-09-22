@@ -18,6 +18,7 @@
 .todo-input::placeholder {
   font-size: 3vmin;
   font-family: var(--deffont);
+  color: white;
 }
 
 .todo-input:focus {
