@@ -57,4 +57,5 @@ const savedTodoArray = JSON.parse(localStorage.getItem("Todos"));
 
 if (savedTodoArray !== null) {
   savedTodoArray.forEach(paintNewTodoObj);
+  todoArray = savedTodoArray;
 }

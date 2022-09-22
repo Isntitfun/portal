@@ -2,3 +2,10 @@
   font-size: 10vmin;
   font-weight: 400;
 }
+
+.greeting {
+  transition: transform 0.4s cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.greeting:hover {
+  transform: scale(1.2);
+}

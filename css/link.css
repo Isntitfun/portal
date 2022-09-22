@@ -29,8 +29,8 @@
   outline: none;
   text-decoration: none;
   color: inherit;
-  font-weight: 500;
-  font-size: 1.2vmin;
+  font-weight: 300;
+  font-size: 1.3vmin;
 }
 .link a:visited {
   color: inherit;
@@ -56,10 +56,13 @@
 }
 .link-btn i {
   color: white;
+  opacity: 0.8;
+  transition: all 0.2s ease-out;
 }
 
 .link-btn:hover i {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .link-btn__linkbtn {

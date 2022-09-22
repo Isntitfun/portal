@@ -21,6 +21,7 @@ body {
   width: 50vw;
   min-width: 290px;
   margin: 0px 10px;
+  transition: all 0.45s ease-out;
 }
 
 .portal-column3 {
@@ -31,7 +32,5 @@ body {
   width: 30vw;
   min-width: 270px;
   margin-right: 30px;
-}
-.column3__linkbtn {
-  width: 20vw;
+  transition: all 0.45s ease-out;
 }
