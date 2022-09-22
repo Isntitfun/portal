@@ -1,3 +1,6 @@
 :root {
   --deffont: "Quicksand", sans-serif;
+  --blkbg: rgba(0, 0, 0, 0.35);
+  --whtbg: rgba(255, 255, 255, 0.3);
+  --deftransit: all 0.4s cubic-bezier(0.63, -0.29, 0, 1.565);
 }

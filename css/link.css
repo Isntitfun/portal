@@ -1,14 +1,26 @@
 .links {
-  padding: 10px;
-  transition: all 0.2s ease-in-out;
+  margin-top: 7vh;
+  position: absolute;
+  left: 12px;
+  transition: var(--deftransit);
 }
 
-.links-hidden {
-  transform: translateX(-50vw);
+.links__linkbtn {
+  transform: translateX(-200px);
 }
 
 .link {
   margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: var(--blkbg);
+  border-radius: 10px;
+  width: 17vmin;
+  max-width: 160px;
+  min-width: 140px;
+  box-sizing: border-box;
+}
+.link:hover {
+  transform: scale(1.1);
 }
 
 .link a {
@@ -18,11 +30,42 @@
   text-decoration: none;
   color: inherit;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 1.2vmin;
 }
 .link a:visited {
   color: inherit;
 }
 .link img {
   margin-right: 7px;
+}
+
+.link-btn {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  transition: var(--deftransit);
+}
+.link-btn i {
+  color: white;
+}
+
+.link-btn:hover i {
+  transform: scale(1.1);
+}
+
+.link-btn__linkbtn {
+  transform: rotateY(180deg);
+}
+
+.email {
+  visibility: hidden;
 }
