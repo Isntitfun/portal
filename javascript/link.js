@@ -4,6 +4,7 @@ const column1 = document.querySelector(".portal-column1");
 const column2 = document.querySelector(".portal-column2");
 const column3 = document.querySelector(".portal-column3");
 const clockmove = document.querySelector(".clock");
+const quoteBox = document.querySelector(".quote-box");
 const email = links.querySelector(".email");
 
 function handleClickLinkBtn() {
@@ -13,6 +14,7 @@ function handleClickLinkBtn() {
   column3.classList.toggle("column3__linkbtn");
   clockmove.classList.toggle("clock__linkbtn");
   linkBtn.classList.toggle("link-btn__linkbtn");
+  quoteBox.classList.toggle("quote-box__linkbtn");
   email.select();
   document.execCommand("copy");
 }
