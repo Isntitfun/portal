@@ -29,7 +29,8 @@ body {
   right: 5vw;
   text-align: center;
   margin-bottom: 15px;
-  transition: left 0.45s ease-out, width 0.45s ease-out;
+  transition: left 0.45s ease-out, width 0.45s ease-out,
+    background-color 1s ease-in;
 }
 
 .clock {
@@ -66,8 +67,6 @@ body {
 }
 
 @media (orientation: landscape) {
-  .quote-box {
-  }
   .quote-box__linkbtn {
     left: calc(5vw + 150px);
   }
